@@ -1,0 +1,33 @@
+@use '@umbeli/ui/src/styles/settings' as *;
+
+.grid-section {
+  margin-bottom: $spacing-8;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.grid-section__title {
+  font-size: $font-size-xl;
+  font-weight: $font-weight-semibold;
+  color: $color-neutral-text;
+  margin-bottom: $spacing-4;
+}
+
+.grid-section__grid {
+  display: grid;
+  align-items: start;
+
+  .grid-section--gap-sm & {
+    gap: $spacing-3;
+  }
+
+  .grid-section--gap-md & {
+    gap: $spacing-5;
+  }
+
+  .grid-section--gap-lg & {
+    gap: $spacing-6;
+  }
+}

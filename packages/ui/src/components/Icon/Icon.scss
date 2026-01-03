@@ -1,0 +1,17 @@
+@use '../../styles/settings' as *;
+
+.icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.icon--missing {
+  width: 20px;
+  height: 20px;
+  background-color: $color-neutral-surface-muted;
+  border-radius: $radius-sm;
+  font-size: $font-size-xs;
+  color: $color-neutral-text-subtle;
+}

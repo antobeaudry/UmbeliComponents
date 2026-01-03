@@ -1,0 +1,11 @@
+// Umbeli UI Component Styles
+// Import this file in your application to include all component styles
+
+@use 'settings' as *;
+
+// Component styles
+@use '../components/Button/Button';
+@use '../components/Card/Card';
+@use '../components/Icon/Icon';
+@use '../components/Tabs/Tabs';
+@use '../components/Skeleton/Skeleton';

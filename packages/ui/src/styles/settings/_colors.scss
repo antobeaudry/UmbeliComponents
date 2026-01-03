@@ -1,0 +1,53 @@
+// ==========================================================================
+// Colors - Design tokens
+// ==========================================================================
+
+// Brand colors
+$color-brand-primary: #030174;
+$color-brand-primary-hover: #02015A;
+$color-brand-primary-active: #010142;
+$color-brand-primary-soft: #E7E8FF;
+$color-brand-on-primary: #FFFFFF;
+
+// Neutrals
+$color-neutral-bg: #EEF1EE;
+$color-neutral-surface: #dbe4f5;
+$color-neutral-surface-alt: #ffffff;
+$color-neutral-surface-muted: #E8EBE7;
+$color-neutral-border: #ffffff;
+$color-neutral-border-strong: #C9CEC8;
+$color-neutral-text: #4a4f5c;
+$color-neutral-text-muted: #5D6472;
+$color-neutral-text-subtle: #7E8594;
+$color-neutral-icon: #1E2330;
+$color-neutral-icon-muted: #606879;
+
+// Sidebar
+$color-sidebar-bg: #ffffff;
+$color-sidebar-surface: radial-gradient(#03017400, #1150c22b);
+$color-sidebar-border: rgba(255, 255, 255, 0.08);
+$color-sidebar-item: rgba(11, 11, 11, 0.72);
+$color-sidebar-item-muted: rgba(255, 255, 255, 0.42);
+$color-sidebar-item-active-bg: radial-gradient(#03017400, #1150c22b);
+$color-sidebar-item-active-text: #000000;
+
+// Semantic colors
+$color-success: #16A34A;
+$color-success-soft: #E7F6ED;
+$color-success-text: #15803D;
+$color-warning: #D97706;
+$color-warning-soft: #FFF1E2;
+$color-danger: #DC2626;
+$color-danger-soft: #FDE8E8;
+$color-info: #2563EB;
+$color-info-soft: #EAF2FF;
+
+// Data visualization
+$color-dataviz-series1: #030174;
+$color-dataviz-series2: #0F121A;
+$color-dataviz-series3: #B9BFBA;
+$color-dataviz-gridline: #D7DBD6;
+
+// Focus states
+$color-focus-ring: rgba(3, 1, 116, 0.35);
+$color-focus-ring-strong: rgba(3, 1, 116, 0.55);

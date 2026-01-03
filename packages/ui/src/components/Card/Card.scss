@@ -1,0 +1,23 @@
+@use '../../styles/settings' as *;
+
+.card {
+  background-color: $color-neutral-surface-alt;
+  border: $border-width-hairline $border-style $color-neutral-border;
+  border-radius: $radius-xl;
+
+  &--padding-sm {
+    padding: $spacing-4;
+  }
+
+  &--padding-md {
+    padding: $spacing-6;
+  }
+
+  &--padding-lg {
+    padding: $spacing-8;
+  }
+
+  &--muted {
+    background-color: $color-neutral-surface;
+  }
+}

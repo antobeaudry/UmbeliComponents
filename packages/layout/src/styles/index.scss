@@ -1,0 +1,8 @@
+// Umbeli Layout Component Styles
+// Import this file in your application to include all layout styles
+
+@use '@umbeli/ui/src/styles/settings' as *;
+
+// Layout component styles
+@use '../components/PageHeader/PageHeader';
+@use '../components/GridSection/GridSection';

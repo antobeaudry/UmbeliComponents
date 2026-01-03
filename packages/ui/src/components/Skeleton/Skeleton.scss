@@ -1,0 +1,16 @@
+@use '../../styles/settings' as *;
+
+.skeleton {
+  animation: skeleton-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  border-radius: $radius-md;
+  background-color: $color-neutral-surface-muted;
+}
+
+@keyframes skeleton-pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "name": "@umbeli/layout",
+  "version": "1.0.0",
+  "description": "Reusable layout components for Umbeli SaaS applications",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./styles": "./dist/styles/index.css",
+    "./styles/*": "./dist/styles/*"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "tsc && npm run build:styles",
+    "build:styles": "sass src/styles:dist/styles --style=compressed",
+    "dev": "tsc --watch",
+    "clean": "rm -rf dist",
+    "lint": "eslint src --ext .ts,.tsx"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "dependencies": {
+    "@umbeli/ui": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
+    "sass": "^1.70.0",
+    "typescript": "^5.3.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/umbeli-com/UmbeliComponents.git",
+    "directory": "packages/layout"
+  },
+  "license": "MIT"
+}
