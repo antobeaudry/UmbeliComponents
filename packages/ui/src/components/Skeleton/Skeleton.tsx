@@ -1,4 +1,4 @@
-import './Skeleton.scss';
+// Styles are imported separately via @umbeli/ui/styles
 
 interface SkeletonProps extends React.HTMLAttributes<HTMLDivElement> {
   className?: string;

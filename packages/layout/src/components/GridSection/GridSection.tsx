@@ -1,5 +1,5 @@
 import { ReactNode } from 'react';
-import './GridSection.scss';
+// Styles are imported separately via @umbeli/layout/styles
 
 interface GridSectionProps {
   children: ReactNode;

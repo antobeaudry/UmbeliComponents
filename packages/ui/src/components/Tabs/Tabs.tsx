@@ -1,5 +1,5 @@
 import { useState, ReactNode } from 'react';
-import './Tabs.scss';
+// Styles are imported separately via @umbeli/ui/styles
 
 interface Tab {
   id: string;

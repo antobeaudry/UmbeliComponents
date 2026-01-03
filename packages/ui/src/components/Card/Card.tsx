@@ -1,5 +1,5 @@
 import { ReactNode } from 'react';
-import './Card.scss';
+// Styles are imported separately via @umbeli/ui/styles
 
 interface CardProps {
   children: ReactNode;
