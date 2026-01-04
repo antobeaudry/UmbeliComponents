@@ -1,8 +1,9 @@
 // Umbeli Layout Component Styles
 // Import this file in your application to include all layout styles
 
-// Note: Settings are imported in each component file
-
 // Layout component styles
 @use '../components/PageHeader/PageHeader';
 @use '../components/GridSection/GridSection';
+@use '../components/AppShell/AppShell';
+@use '../components/SidebarNav/SidebarNav';
+@use '../components/Topbar/Topbar';

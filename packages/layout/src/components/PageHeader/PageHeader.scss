@@ -1,12 +1,12 @@
-@use '../../../node_modules/@umbeli/ui/src/styles/settings' as *;
+// PageHeader Component Styles
 
 .page-header {
   display: flex;
   flex-direction: column;
-  gap: $spacing-4;
-  margin-bottom: $spacing-6;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
 
-  @media (min-width: $breakpoint-md) {
+  @media (min-width: 768px) {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
@@ -16,51 +16,51 @@
 .page-header__content {
   display: flex;
   flex-direction: column;
-  gap: $spacing-1;
+  gap: 0.25rem;
 }
 
 .page-header__title {
-  font-size: $font-size-3xl;
-  font-weight: $font-weight-bold;
-  color: $color-neutral-text;
-  line-height: $line-height-tight;
-  letter-spacing: $letter-spacing-tighter;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  line-height: 1.2;
+  letter-spacing: -0.025em;
 }
 
 .page-header__subtitle {
-  font-size: $font-size-md;
-  color: $color-neutral-text-muted;
+  font-size: 1rem;
+  color: #7E8594;
   margin: 0;
 }
 
 .page-header__meta {
   display: flex;
   align-items: center;
-  gap: $spacing-4;
+  gap: 1rem;
 }
 
 .page-header__period {
   display: flex;
   align-items: center;
-  gap: $spacing-2;
-  padding: $spacing-2 $spacing-4;
-  background-color: $color-neutral-surface-alt;
-  border: $border-width-hairline $border-style $color-neutral-border;
-  border-radius: $radius-pill;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #ffffff;
+  border: 1px solid #E8EBE7;
+  border-radius: 100px;
 }
 
 .page-header__period-icon {
-  font-size: $font-size-sm;
+  font-size: 0.875rem;
 }
 
 .page-header__period-text {
-  font-size: $font-size-sm;
-  font-weight: $font-weight-medium;
-  color: $color-neutral-text;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #1a1a2e;
 }
 
 .page-header__actions {
   display: flex;
   align-items: center;
-  gap: $spacing-3;
+  gap: 0.75rem;
 }

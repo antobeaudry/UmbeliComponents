@@ -1,0 +1,77 @@
+// KpiCard Component Styles
+
+.kpi-card {
+  background-color: #ffffff;
+  border: 1px solid #E8EBE7;
+  border-radius: 16px;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.kpi-card__header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.kpi-card__icon {
+  font-size: 1.125rem;
+  line-height: 1;
+  flex-shrink: 0;
+  min-width: 24px;
+  min-height: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.kpi-card__label {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #7E8594;
+}
+
+.kpi-card__body {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+}
+
+.kpi-card__value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  line-height: 1.2;
+}
+
+.kpi-card__trend {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 100px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  background-color: #F8F9FA;
+  color: #7E8594;
+
+  &--up {
+    background-color: #ECFDF5;
+    color: #059669;
+  }
+
+  &--down {
+    background-color: #FEF2F2;
+    color: #DC2626;
+  }
+}
+
+.kpi-card__trend-icon {
+  font-size: 0.75rem;
+}
+
+.kpi-card__trend-value {
+  font-size: 0.75rem;
+}

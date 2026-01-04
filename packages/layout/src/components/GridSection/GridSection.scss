@@ -1,7 +1,7 @@
-@use '../../../node_modules/@umbeli/ui/src/styles/settings' as *;
+// GridSection Component Styles
 
 .grid-section {
-  margin-bottom: $spacing-8;
+  margin-bottom: 2rem;
 
   &:last-child {
     margin-bottom: 0;
@@ -9,10 +9,10 @@
 }
 
 .grid-section__title {
-  font-size: $font-size-xl;
-  font-weight: $font-weight-semibold;
-  color: $color-neutral-text;
-  margin-bottom: $spacing-4;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1a1a2e;
+  margin-bottom: 1rem;
 }
 
 .grid-section__grid {
@@ -20,14 +20,14 @@
   align-items: start;
 
   .grid-section--gap-sm & {
-    gap: $spacing-3;
+    gap: 0.75rem;
   }
 
   .grid-section--gap-md & {
-    gap: $spacing-5;
+    gap: 1.25rem;
   }
 
   .grid-section--gap-lg & {
-    gap: $spacing-6;
+    gap: 1.5rem;
   }
 }

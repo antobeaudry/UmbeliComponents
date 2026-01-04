@@ -1,4 +1,4 @@
-@use '../../styles/settings' as *;
+// Icon Component Styles
 
 .icon {
   display: inline-flex;
@@ -10,8 +10,8 @@
 .icon--missing {
   width: 20px;
   height: 20px;
-  background-color: $color-neutral-surface-muted;
-  border-radius: $radius-sm;
-  font-size: $font-size-xs;
-  color: $color-neutral-text-subtle;
+  background-color: #F8F9FA;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  color: #A0A5B1;
 }

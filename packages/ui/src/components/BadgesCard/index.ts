@@ -1,0 +1,1 @@
+export { BadgesCard } from './BadgesCard';

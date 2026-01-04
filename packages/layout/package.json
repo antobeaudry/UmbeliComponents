@@ -12,7 +12,9 @@
       "types": "./dist/index.d.ts"
     },
     "./styles": "./dist/styles/index.css",
-    "./styles/*": "./dist/styles/*"
+    "./styles/*": "./dist/styles/*",
+    "./src/styles/*": "./src/styles/*",
+    "./src/components/*": "./src/components/*"
   },
   "files": [
     "dist",
@@ -30,7 +32,8 @@
     "react-dom": "^18.0.0"
   },
   "dependencies": {
-    "@umbeli/ui": "workspace:*"
+    "@umbeli/ui": "workspace:*",
+    "react-ionicons": "^4.2.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.48",

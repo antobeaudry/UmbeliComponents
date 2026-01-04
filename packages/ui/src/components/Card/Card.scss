@@ -1,23 +1,23 @@
-@use '../../styles/settings' as *;
+// Card Component Styles
 
 .card {
-  background-color: $color-neutral-surface-alt;
-  border: $border-width-hairline $border-style $color-neutral-border;
-  border-radius: $radius-xl;
+  background-color: #ffffff;
+  border: 1px solid #E8EBE7;
+  border-radius: 16px;
 
   &--padding-sm {
-    padding: $spacing-4;
+    padding: 1rem;
   }
 
   &--padding-md {
-    padding: $spacing-6;
+    padding: 1.5rem;
   }
 
   &--padding-lg {
-    padding: $spacing-8;
+    padding: 2rem;
   }
 
   &--muted {
-    background-color: $color-neutral-surface;
+    background-color: #F8F9FA;
   }
 }

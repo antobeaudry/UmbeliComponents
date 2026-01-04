@@ -1,0 +1,133 @@
+// StreakCard Component Styles
+
+.streak-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 1.25rem;
+  border: 1px solid #D0D3CF;
+  transition: all 0.3s ease;
+
+  &--on-fire {
+    border-color: rgba(239, 68, 68, 0.3);
+    background: linear-gradient(135deg, #ffffff, rgba(239, 68, 68, 0.05));
+  }
+}
+
+.streak-card__header {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+
+.streak-card__icon-wrapper {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background: #F8F9FA;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .streak-card--on-fire & {
+    background: rgba(239, 68, 68, 0.1);
+    animation: pulse 2s infinite;
+  }
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+.streak-card__title-group {
+  flex: 1;
+}
+
+.streak-card__title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #1a1a2e;
+  margin: 0 0 0.25rem;
+}
+
+.streak-card__subtitle {
+  font-size: 0.875rem;
+  color: #7E8594;
+}
+
+.streak-card__stats {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.streak-card__stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.75rem;
+  background: #F8F9FA;
+  border-radius: 12px;
+  flex: 1;
+
+  &--main {
+    background: linear-gradient(135deg, #030174, #4f46e5);
+    
+    .streak-card__stat-value,
+    .streak-card__stat-label {
+      color: white;
+    }
+  }
+}
+
+.streak-card__stat-value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1a1a2e;
+}
+
+.streak-card__stat-label {
+  font-size: 0.75rem;
+  color: #7E8594;
+  text-align: center;
+}
+
+.streak-card__progress {
+  margin-bottom: 0.75rem;
+}
+
+.streak-card__progress-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.875rem;
+  color: #7E8594;
+  margin-bottom: 0.5rem;
+}
+
+.streak-card__progress-bar {
+  height: 8px;
+  background: #F8F9FA;
+  border-radius: 100px;
+  overflow: hidden;
+}
+
+.streak-card__progress-fill {
+  height: 100%;
+  background: #030174;
+  border-radius: 100px;
+  transition: width 0.5s ease;
+
+  &--complete {
+    background: linear-gradient(90deg, #059669, #10B981);
+  }
+}
+
+.streak-card__last-post {
+  font-size: 0.75rem;
+  color: #A0A5B1;
+  text-align: center;
+  padding-top: 0.75rem;
+  border-top: 1px solid #D0D3CF;
+}

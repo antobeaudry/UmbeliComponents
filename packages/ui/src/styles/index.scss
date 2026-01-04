@@ -1,11 +1,20 @@
 // Umbeli UI Component Styles
 // Import this file in your application to include all component styles
 
-@use 'settings' as *;
-
 // Component styles
 @use '../components/Button/Button';
 @use '../components/Card/Card';
 @use '../components/Icon/Icon';
 @use '../components/Tabs/Tabs';
 @use '../components/Skeleton/Skeleton';
+@use '../components/KpiCard/KpiCard';
+@use '../components/MiniChart/MiniChart';
+@use '../components/CoachPanel/CoachPanel';
+@use '../components/CoachFocusCard/CoachFocusCard';
+@use '../components/ActionList/ActionList';
+@use '../components/StreakCard/StreakCard';
+@use '../components/BadgesCard/BadgesCard';
+@use '../components/CalendarBoard/CalendarBoard';
+@use '../components/DragDropUpload/DragDropUpload';
+@use '../components/AIChatPanel/AIChatPanel';
+@use '../components/OnboardingChat/OnboardingChat';
